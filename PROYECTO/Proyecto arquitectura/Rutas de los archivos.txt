@@ -1,0 +1,19 @@
+seismic-simulator/
+│
+├── Makefile                       ← en la raíz, SIN extensión, con mayúscula inicial
+├── README.md                      ← en la raíz
+│
+├── include/                       ← carpeta para los headers (.hpp)
+│   ├── SeismicTrace.hpp
+│   ├── SEGYParser.hpp
+│   ├── StorageBackend.hpp
+│   ├── TraceIndex.hpp
+│   └── Prefetcher.hpp
+│
+├── src/                           ← carpeta para los fuentes (.cpp)
+│   ├── SEGYParser.cpp
+│   ├── StorageBackend.cpp
+│   └── main.cpp
+│
+└── data/                          ← se crea automáticamente al ejecutar
+    └── synthetic.sgy              ← archivo SEG-Y generado por el programa
